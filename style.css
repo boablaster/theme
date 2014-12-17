@@ -232,7 +232,7 @@ a:focus {
 
 .carousel .item > .container-fluid > .article > .social {
   position: absolute;
-  z-index: 9999;
+ /* z-index: 9999;*/
   bottom: 60px;
   right: 20px;
   height: 20px;
