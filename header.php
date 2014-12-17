@@ -61,9 +61,7 @@ $menu_options = array(
 
 ?>
 
-<div class="navbar-wrapper">
-    <div class="container">
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,6 +74,3 @@ $menu_options = array(
             <?php wp_nav_menu($menu_options); ?>
           </div><!-- .container -->
         </div><!-- .navbar -->
-
-    </div><!-- .container -->
-</div><!-- .navbar-wrapper -->
